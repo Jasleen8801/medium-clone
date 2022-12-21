@@ -1,0 +1,90 @@
+.creators{
+    display: flex;
+    width: 100%;
+    background-color: #FCF9BE;
+    padding: 20px 50px;
+}
+
+.creators-main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 20px 50px;
+}
+
+.creators-main > small {
+    font-size: 80%;
+    font-weight: 600;
+    letter-spacing: 0.5em;
+    margin: 10px 0px;
+    color: #AD8B73;
+}
+
+.creators-main > p{
+    color: #694E4E;
+}
+
+.creators > p > strong{
+    font-size: 6vw;
+    width: 80%;
+    margin: 0px;
+    font-family: fantasy;
+}
+
+.creators-main > button{
+    font-size: 1.5rem;
+    padding: 10px 100px;
+    max-width: fit-content;
+    outline: none;
+    border: none;
+    border-radius: 33px;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #694E4E;
+    color: #FFFBE9;
+}
+
+.creators-main > button:hover{
+    color: #AD8B73;
+    background-color: #FFFBE9;
+}
+
+.creator-learn{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #000;
+    background-image: url(https://cdn-static-1.medium.com/sites/medium.com/creators/images/cubes.png);
+    background-position: 100% 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 1;
+    background-color: #FCF9BE;
+    padding: 30px 80px;
+}
+
+.creator-learn > p{
+    width: 70%;
+    font-size: 20px;
+    color: #AD8B73;
+}
+
+.creator-learn > p > strong{
+    font-size: 5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #694E4E;
+    width: 70%;
+}
+
+.creator-learn > button{
+    max-width: fit-content;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #694E4E;
+    color: white;
+    font-size: 1.2rem;
+}
